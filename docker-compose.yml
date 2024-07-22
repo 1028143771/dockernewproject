@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   movies:
-    image: 8500100213/movies:latest
+    image: movies:latest
     ports:
       - 81:80
     deploy:
       replicas: 3
   dth:
-    image: 8500100213/dth:latest
+    image: dth:latest
     ports:
       - 82:80
     deploy:
       replicas: 3
   recharge:
-    image: 8500100213/recharge:latest
+    image: recharge:latest
     ports:
       - 83:80
     deploy:
       replicas: 3
   money:
-    image: 8500100213/money:latest
+    image: money:latest
     ports:
       - 84:80
     deploy:
