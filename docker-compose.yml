@@ -7,7 +7,7 @@ services:
     deploy:
       replicas: 3
   netflix:
-    image: 8500100213/bat:latest
+    image: 8500100213/gpay:latest
     ports:
       - "82:80"
     deploy:
@@ -19,7 +19,7 @@ services:
     deploy:
       replicas: 3
   zoomato:
-    image: 8500100213/king:latest
+    image: 8500100213/phone:latest
     ports:
       - "84:80"
     deploy:
