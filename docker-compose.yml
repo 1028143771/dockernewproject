@@ -1,24 +1,24 @@
 version: '3.8'
 services:
-  movies:
+  hotel:
     image: 8500100213/paytm:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
-  train:
-    image: 8500100213/gpay:latest
+  netflix:
+    image: 8500100213/bat:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
-  dth:
+  swiggy:
     image: 8500100213/mobi:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
-  recharge:
+  zoomato:
     image: 8500100213/phone:latest
     ports:
       - "84:80"
